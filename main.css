@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.my-header {
+    padding: 10px;
+    background-color: #05747D;
+    color: #FDFAE7;
+    font-size: 30px;
+}
+.div-header{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    gap: 50px;
+}
+
+.my-header img {
+    width: 120px;
+    height: 120px;
+}
+.nav-bar {
+    background-color: #FDFAE7;
+    height: 5em;
+}
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+  
+.nav-bar ul li {
+    flex: 1;
+}
+  
+.nav-bar ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 22px;
+    color: #05747D;
+}
+.nav-bar ul li a:hover{
+    background-color: #05747D;
+    color: #FDFAE7;
+    border: 2px #FDFAE7 solid;
+}
+
+.div_container{
+    padding: 10px;
+    border: 1px #05747D solid;
+    background-color: #FDFAE7;
+    color:black;
+    height: 100vh;
+}
+
+.div_container h2 {
+    color: #05747D;
+}
+
+a {
+    color:#05747D;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.content_title a{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+.index_posts{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+    padding: 15px;
+    gap: 15px;
+}
+.content_title{
+    display: flex;
+    gap: 20px;
+}
+
+.content{
+    margin-bottom: 25px;
+}
+.content a{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    gap: 10px;
+}
+.h2_form{
+    text-align: center;
+    padding: 25px;
+}
+
+.form-group label{
+    font-size: 20px;
+}
+
+.form-group input{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-group textarea{
+    border-radius: 5px;
+    font-size: 15px;
+}
+.div_buttons {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+}
+.div_buttons button{
+    padding: 15px;
+    border-radius: 3px;
+    border: #FDFAE7;
+    background-color: #05747D;
+    color: #FDFAE7;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.div_buttons button:hover{
+    color: #05747D;
+    background-color: #FDFAE7;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #05747D;
+    color: #FDFAE7;
+    text-align: center;
+ }
+
